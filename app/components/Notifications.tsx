@@ -108,7 +108,7 @@ const NotificationsDropdown = () => {
                             </Menu.Item>
                         ))
                     ) : (
-                        <div className="px-4 py-3 text-gray-500 text-center">Yeni bildirim yoxdur</div>
+                        <div className="px-4 outline-none py-3 text-gray-500 text-center">Yeni bildirim yoxdur</div>
                     )}
                 </div>
             </Menu.Items>

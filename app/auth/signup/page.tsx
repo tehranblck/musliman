@@ -5,6 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 import { useRouter } from "next/navigation";
 import "react-toastify/dist/ReactToastify.css";
 import { registerUser } from "@/app/services/auth/signupService";
+import Link from "next/link";
 
 
 interface UserRegister {
